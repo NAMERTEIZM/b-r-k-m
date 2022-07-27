@@ -1,0 +1,121 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+#login-container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border: 4px solid red;
+
+   /* border :#08497f solid; */
+
+}
+
+.login-screen{
+    background-color: #fff;
+    border: 1px solid #ccc;
+    margin: auto;
+    max-width: 822px;
+    box-shadow: rgba(187, 187, 187, 1) 0 0 10px;
+
+
+  /*  border :#00ff55 solid; */
+
+    
+
+}
+
+.image-container{
+    background-image:url('./../images/bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:322px;
+    max-width: 822px;
+   /* border :#ff0000 solid; */
+    align-self: center;
+
+}
+
+.image-container img{
+    max-width:307px;
+    margin-top:25px;
+    margin-left: 30px;
+  /*  border :rgb(234, 0, 255) solid; */
+
+}
+
+.btn-giris{
+    border-radius: 7px;
+    border: solid 1px #898989;
+    background-color: rgba(242, 242, 242,.36);
+    font-size: 15.5px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: -0.16px;
+    text-align: center;
+    color: #08497f;
+    padding: 12px 25px;
+ /*   border :#fbff00 solid; */
+
+}
+
+.left-col a{
+    font-size: 15.5px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: -0.16px;
+    text-align: left;
+    color: #08497f;
+   /* border :#0051ff solid; */
+
+}
+.form-check-label{
+    color: #08497f;
+
+}
+.form-check-input{
+    background-color: rgb(255, 255, 255);
+}
+.form-check input:checked{
+    background-color:#9cd3d3;
+
+}
+#girisyap{
+    background-color:#5bcdd3 ;
+    color: white;
+    border :#fff;
+    border-radius: 5px;
+    padding: 5px 18px 5px 18px;
+  
+    
+}
+.mb3 label{
+    color:#08497f;
+}
+#firmakodu  {
+    color:#08497f;
+    font-weight: bold;
+
+}
+#kul{
+    color:#08497f;
+    font-weight: bold;
+}
+#sifre{
+    color:#08497f;
+    font-weight: bold;
+}
+ /* .col-xl-7{
+    color: #08497f;
+    font-weight: bolder;
+    
+
+}
+*/
